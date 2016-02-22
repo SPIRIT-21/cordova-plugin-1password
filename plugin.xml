@@ -6,13 +6,13 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:rim="http://www.blackberry.com/ns/widgets"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="SPIRIT21-cordova-1password"
-    version="1.0.0-de">
-    <name>SPIRIT21-cordova-1password</name>
+    id="cordova-plugin-1password"
+    version="0.1.0">
+    <name>cordova-plugin-1password</name>
     <description>Cordova 1Password Plugin - Mady by SPIRIT21</description>
-    <license>UNLICENSED</license>
+    <license>MIT</license>
     <keywords>cordova,1password</keywords>
-    <repo>https://spirit21.visualstudio.com/DefaultCollection/SPIRIT21.Js.BowerPlugins/_git/SPIRIT21-cordova-1password</repo>
+    <repo>https://github.com/SPIRIT-21/cordova-plugin-1password</repo>
     <issue></issue>
 
     <js-module src="www/onepassword.js" name="OnePassword">
