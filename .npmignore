@@ -10,7 +10,8 @@
 /build/
 *.dmg
 
-
 /_build/
 /build-nwjs/
 npm-debug.log
+
+/getChangelog.sh
