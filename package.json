@@ -13,6 +13,8 @@
     "url": "https://github.com/SPIRIT-21/cordova-plugin-1password"
   },
   "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
     "cordova",
     "1password",
     "onepassword"
