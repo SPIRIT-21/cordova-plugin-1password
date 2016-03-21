@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Copyright SPIRIT21 Alle Rechte vorbehalten.
--->
-
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    xmlns:rim="http://www.blackberry.com/ns/widgets"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    id="cordova-plugin-1password"
-    version="0.1.3">
+        xmlns:rim="http://www.blackberry.com/ns/widgets"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-plugin-1password"
+        version="0.1.4">
     <name>cordova-plugin-1password</name>
     <description>Cordova 1Password Plugin - Mady by SPIRIT21</description>
     <license>MIT</license>
@@ -16,7 +12,7 @@
     <issue></issue>
 
     <js-module src="www/onepassword.js" name="OnePassword">
-        <clobbers target="OnePassword" />
+        <clobbers target="OnePassword"/>
     </js-module>
 
 
@@ -24,15 +20,14 @@
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="OnePassword">
-                <!-- value = Plugin Intgerface class name -->
                 <param name="ios-package" value="OnePassword"/>
             </feature>
         </config-file>
 
-        <header-file src="src/ios/OnePassword.h" />
-        <source-file src="src/ios/OnePassword.m" />
-        <header-file src="src/ios/OnePasswordExtension.h" />
-        <source-file src="src/ios/OnePasswordExtension.m" />
+        <header-file src="src/ios/OnePassword.h"/>
+        <source-file src="src/ios/OnePassword.m"/>
+        <header-file src="src/ios/OnePasswordExtension.h"/>
+        <source-file src="src/ios/OnePasswordExtension.m"/>
     </platform>
 
 </plugin>
