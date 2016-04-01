@@ -12,6 +12,7 @@ cordova plugin add cordova-plugin-1password
 ### Supported Platforms
 
 - iOS 9.0
+- No support for iPad!!
 
 ## Properties
 
@@ -45,6 +46,8 @@ Pass the following arguments to the `storeLoginForUrl()` function, to prompt the
 3. Username (String) 
 4. Password (String)
 5. URL (String)*
+6. Title (String)
+7. Section title (String)
 
 
 ```
