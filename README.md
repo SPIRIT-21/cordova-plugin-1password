@@ -51,7 +51,7 @@ Pass the following arguments to the `storeLoginForUrl()` function, to prompt the
 
 
 ```
-OnePassword.storeLoginForUrl(succesCallback, errorCallback, username, password, url)
+OnePassword.storeLoginForUrl(succesCallback, errorCallback, username, password, url, title, sectionTitle)
 ```
 
 ## *Best Practices ([see also](https://github.com/AgileBits/onepassword-app-extension#best-practices))
