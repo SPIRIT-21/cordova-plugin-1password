@@ -129,14 +129,16 @@
     NSString* username = [command.arguments objectAtIndex:0];
     NSString* password = [command.arguments objectAtIndex:1];
     NSString* url = [command.arguments objectAtIndex:2];
+	NSString* title = [command.arguments objectAtIndex:3];
+	NSString* sectionTitle = [command.arguments objectAtIndex:4];
 
     if(url != nil  && username != nil && password != nil){
         NSDictionary *newLoginDetails = @{
-                                          AppExtensionTitleKey: @"SPIRIT/21",
+                                          AppExtensionTitleKey: title? : @"",
                                           AppExtensionUsernameKey: username? : @"",
                                           AppExtensionPasswordKey: password ? : @"",
                                           AppExtensionNotesKey: @"Saved with the SPIRIT/21 OnePassword Cordova Plugin",
-                                          AppExtensionSectionTitleKey: @"SPIRIT/21",
+                                          AppExtensionSectionTitleKey: sectionTitle? : @"",
                                                                                 AppExtensionFieldsKey: @{
                                           //                                              @"firstname" : @"asdfsdf"? : @"",
                                           //                                              @"lastname" : @"sadfsdf" ? : @""
