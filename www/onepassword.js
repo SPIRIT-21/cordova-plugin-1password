@@ -14,7 +14,7 @@ OnePassword.prototype.fillItemIntoWebView = function (success, error, url) {
 };
 
 OnePassword.prototype.storeLoginForUrl = function (success, error, url, username, password) {
-    exec(success, error, "OnePassword", "storeLoginForURLString", [username, password, url]);
+    exec(success, error, "OnePassword", "storeLoginForURLString", [username, password, url, title, sectionTitle]);
 };
 
 module.exports = new OnePassword();
