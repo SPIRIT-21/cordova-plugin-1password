@@ -12,6 +12,7 @@ cordova plugin add cordova-plugin-1password
 ### Supported Platforms
 
 - iOS 9.0
+- No support for iPad!!
 
 ## Properties
 
@@ -45,10 +46,12 @@ Pass the following arguments to the `storeLoginForUrl()` function, to prompt the
 3. Username (String) 
 4. Password (String)
 5. URL (String)*
+6. Title (String)
+7. Section title (String)
 
 
 ```
-OnePassword.storeLoginForUrl(succesCallback, errorCallback, username, password, url)
+OnePassword.storeLoginForUrl(succesCallback, errorCallback, username, password, url, title, sectionTitle)
 ```
 
 ## *Best Practices ([see also](https://github.com/AgileBits/onepassword-app-extension#best-practices))
