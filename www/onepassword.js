@@ -13,7 +13,7 @@ OnePassword.prototype.fillItemIntoWebView = function (success, error, url) {
     exec(success, error, "OnePassword", "fillItemIntoWebView", [url]);
 };
 
-OnePassword.prototype.storeLoginForUrl = function (success, error, url, username, password) {
+OnePassword.prototype.storeLoginForUrl = function (success, error, username, password, url, title, sectionTitle) {
     exec(success, error, "OnePassword", "storeLoginForURLString", [username, password, url, title, sectionTitle]);
 };
 
