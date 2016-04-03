@@ -3,9 +3,9 @@
         xmlns:rim="http://www.blackberry.com/ns/widgets"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-plugin-1password"
-        version="0.1.4">
+        version="0.1.5">
     <name>cordova-plugin-1password</name>
-    <description>Cordova 1Password Plugin - Mady by SPIRIT21</description>
+    <description>Cordova 1Password Plugin for iOS - Mady by SPIRIT/21</description>
     <license>MIT</license>
     <keywords>cordova,1password</keywords>
     <repo>https://github.com/SPIRIT-21/cordova-plugin-1password</repo>

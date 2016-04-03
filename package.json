@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-1password",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Cordova 1Password Plugin from SPIRIT/21 AG",
   "cordova": {
     "id": "cordova-plugin-1password",
