@@ -17,7 +17,7 @@ cordova plugin add cordova-plugin-1password
 ## Properties
 
 - OnePassword.findLoginForUrl(succesCallback, errorCallback, url)
-- OnePassword.storeLoginForUrl(succesCallback, errorCallback, username, password, url)
+- OnePassword.storeLoginForUrl(succesCallback, errorCallback, username, password, url, title, sectionTitle)
 
 ## Usage
 
